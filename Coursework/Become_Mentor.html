@@ -1,0 +1,113 @@
+<!Doctype HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel = "stylesheet" type = "text/CSS" href = "style.css">
+        <title>AfConsults</title>
+        </head>
+        <body>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Mentors.html">Mentors</a></li>
+                    <li><a href="#">Become a Mentor</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+                </nav>
+                <main>
+                    <div>
+                        <header>Steps to becoming a mentor</header>
+                        <ul>
+                            <li>You must be the holder of a degree in a computer science related field</li>
+                            <li>You'll start by submitting the form at the bottom of the page.</li>
+                            <li>We will review your reasons for wanting to become a mentor as well as your qualifications.</li>
+                            <li>Finaly if we like what you've written and as well as your qualificaitons we will send you an email inviting you for an online interview to find where best you'd fit.</li>
+                        </ul>
+
+                    </div>
+
+                <!--The code from this point until the "End" comment is repurposed and is not entirely my own. The base code was retrieved from https://www.w3schools.com/css/tryit.asp?filename=trycss_forms-->
+                <!--I have altered this code to fit my purposes-->
+                <style>
+                input[type=text], select {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                  }
+                  
+                  input[type=submit] {
+                    width: 100%;
+                    background-color: #4CAF50;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                  }
+                  
+                  input[type=submit]:hover {
+                    background-color: #45a049;
+                  }
+                  
+                  div {
+                    border-radius: 5px;
+                    background-color: #f2f2f2;
+                    padding: 20px;
+                  }</style>
+                <div>
+                    <form action="/action_page.php">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      
+                      <label for="email">Email Address</label>
+                      <input type="text" id="email" name="EmailAddress" placeholder="Your current email address so we may contact you...">
+
+                      <label for="Qualification">Level of Education</label>
+                      <select id="qualifications" name="qualifications">
+                          <option value="bachelors">Bachelors</option>
+                          <option value="masters">Masters</option>
+                          <option value="phd">PHD/Doctorate</option>
+                      </select>
+
+                      <label for="field">Field of study</label>
+                      <select id="field" name="field">
+                          <option value="compsci">Computer Science</option>
+                          <option value="it">Information Technology(IT)</option>
+                          <option value="computing">Computing</option>
+                          <option value="A.I">A.I(Artficial Inteligence)/ Machine Learning</option>
+                          <option value="other">other computer science related field</option>
+                      </select>
+
+                      <label for="reason">Why do you want to be a mentor</label>
+                      <input type="text" id="reason" name="reason" placeholder="Explain why you'd want to become a mentor...">
+                        
+                      <label for="country">Country</label>
+                      <select id="country" name="country">
+                        <option value="UK">UK</option>
+                        <option value="Mauritius">Mauritius</option>
+                        <option value="Kenya">Kenya</option>
+                      </select>
+                    
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  <!--End-->
+                </main>
+                                
+                <footer>
+                    <ul>
+                        <header> Quick Links:</header>
+                        <li><a href="Mentors.html">Mentors by Region</a></li>
+                        <li><a href="Become_Mentor.html">Become a Mentor</a></li>
+                    </ul>
+                </footer>
+        </body>
+        </html>

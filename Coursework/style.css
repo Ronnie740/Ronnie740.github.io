@@ -1,0 +1,118 @@
+nav,footer{
+    background-color:rgb(0, 174, 255);
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+         
+}
+nav ul li{  
+    float:left;
+}
+nav ul li a{
+    text-align: center;
+    padding:15px 17px;
+    color:white;
+    text-decoration: none;
+    display:block;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px ;
+}
+nav ul li:hover, footer ul li:hover{
+ background-color:blue;
+}
+footer ul li a{
+    display:block;
+    padding:5px;
+    color:white;
+    text-decoration:none;
+    font-family:'Josefin Sans', sans-serif; 
+}
+footer ul{
+    color:white;
+    font-family:'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width:33.3%;
+    list-style-type:none;
+    text-align:center;
+}
+
+
+section{
+    height:33.3%;
+    display:block;
+    font-family:'Josefin Sans', sans-serif;
+}
+header{
+    text-align: center;
+}
+.body_header{
+    font-family:'Fredericka the Great', cursive;
+    background-color: black;
+    color:white;
+    padding:5px 0 5px 0;
+}
+.trademark{
+    font-size: 40px;
+}
+.section-1{
+    background-image:url("./Images/Mentorship.png");
+    background-repeat: no-repeat;
+    color:white;
+    padding:10px 0 27%;
+}
+.section-1_1{
+    background-color:white;
+    opacity:.9;
+    padding:10px;
+    text-align: center ;
+
+}
+.section-1_1 p{
+    color: black;
+}
+.section-3 ul li, .section-4 ul li, .section-5 ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.section-3 header:hover,.section-4 header:hover,.section-5 header:hover{
+    background-color: grey;
+    color: white;
+}
+.mentor_info{
+    display: none;
+    position:absolute;
+    z-index:1;
+}
+.mentor_info ul li{
+    display:block;
+    float:left;
+    width: 15%;
+    font-family:'Fredericka the Great', cursive ;
+}
+.section-3:hover .mentor_info,.section-4:hover .mentor_info,.section-5:hover .mentor_info{
+    display:block;
+}
+.section-3:hover,.section-4:hover,.section-5:hover{
+    padding-bottom:20%;
+}
+.section-3 header,.section-4 header,.section-5 header{
+    font-weight:bolder;
+    padding: 20px 0 20px 0;
+    font-family:'Fredericka the Great', cursive;
+}
+main{
+    font-family:'Fredericka the Great', cursive;
+}
+#main_header{
+    text-decoration: underline;
+    font-size: x-large;
+}
+#main_p{
+    text-align: center;
+}
+body{
+    background-color: whitesmoke;
+}
